@@ -15,6 +15,9 @@ body{
     
     
 }
+img{
+    max-width:300px;
+}
 label,input{
     display: block;
     font-size: x-large;
@@ -77,4 +80,14 @@ margin:0;
 }
 img{
     color: thistle;
+}
+@media screen and (max-width:400px){
+    .nav-list-item{
+        display: inline;
+        padding: 0rem 1rem;
+        font-size: small;
+        font-family: cursive;
+        
+    
+    }
 }
